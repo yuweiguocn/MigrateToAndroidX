@@ -6,7 +6,7 @@ curpath=os.getcwd()
 datapath=curpath+"/MigrateToAndroidX/source.html"
 count=0
 
-skips=[".git","/build/generated/","/build/intermediates/","/build/kotlin/","/build/outputs/","/build/tmp/"]
+skips=["/.git/","/.gradle/","/.idea/","/build/generated/","/build/intermediates/","/build/kotlin/","/build/outputs/","/build/tmp/"]
 fileSuffix=[".java",".kt",".gradle",".xml"]
 
 def replaceTag(name):
