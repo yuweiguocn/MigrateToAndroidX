@@ -10,4 +10,4 @@ git clone git@github.com:yuweiguocn/MigrateToAndroidX.git
 python MigrateToAndroidX/migrate.py
 ```
 
-![](result.png)
+![](/result.png)
