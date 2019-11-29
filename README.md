@@ -12,5 +12,10 @@
 git clone git@github.com:yuweiguocn/MigrateToAndroidX.git
 python MigrateToAndroidX/migrate.py
 ```
-
+运行结果：
 ![](./result.png)
+
+## 不支持
+
+- 不支持依赖替换
+- 不支持多行导包替换
