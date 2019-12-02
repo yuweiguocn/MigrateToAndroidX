@@ -7,12 +7,20 @@
 
 ## 使用
 
+在gradle.properties文件中添加以下属性：
+```
+android.useAndroidX=true //表示启用androidx
+android.enableJetifier=true //会对依赖库进行迁移
+```
+对工程进行Sync确保依赖库已经改为androidx。
+
 打开终端在工程根目录执行以下命令：
 ```
 git clone git@github.com:yuweiguocn/MigrateToAndroidX.git
 python MigrateToAndroidX/migrate.py
 ```
 运行结果：
+
 ![](./result.png)
 
 ## 不支持
