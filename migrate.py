@@ -7,7 +7,7 @@ datapath=curpath+"/MigrateToAndroidX/source.html"
 count=0
 
 skips=["/.git/","/.gradle/","/.idea/","/build/generated/","/build/intermediates/","/build/kotlin/","/build/outputs/","/build/tmp/"]
-fileSuffix=[".java",".kt",".gradle",".xml"]
+fileSuffix=[".java",".kt",".gradle",".xml",".pro",".txt",".cfg"]
 
 def replaceTag(name):
 	name=name.replace("<td>","")
