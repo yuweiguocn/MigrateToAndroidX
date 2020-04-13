@@ -19,7 +19,7 @@ def getMapData():
 	table={}
 	for line in iter(open(datapath)):
 		name=line.lstrip().rstrip()
-		if(name.startswith("<td>android.")):
+		if(name.startswith("<td>android.") or name.startswith("<td>com.android.")):
 			table={}
 			table["from"]=replaceTag(name)
 		elif(name.startswith("<td>lifecycle") or name.startswith("<td>core") or name.startswith("<td>paging") or name.startswith("<td>persistence")):
